@@ -128,7 +128,7 @@ const buildConfig = baseConfig.clone()
         ...commonHtmlWebpackPluginOptions,
         chunks: ['gui'],
         template: 'src/playground/index.ejs',
-        title: 'Scratch 3.0 GUI'
+        title: 'Blue Ridge Boost - Scratch 3.0'
     }))
     .addPlugin(new HtmlWebpackPlugin({
         ...commonHtmlWebpackPluginOptions,
@@ -149,7 +149,7 @@ const buildConfig = baseConfig.clone()
         chunks: ['player'],
         filename: 'player.html',
         template: 'src/playground/index.ejs',
-        title: 'Scratch 3.0 GUI: Player Example'
+        title: 'Scratch 3.0 GUI: Test Example'
     }))
     .addPlugin(new CopyWebpackPlugin({
         patterns: [
