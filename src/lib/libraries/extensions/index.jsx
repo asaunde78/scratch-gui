@@ -46,7 +46,30 @@ import gdxforInsetIconURL from './gdxfor/gdxfor-small.svg';
 import gdxforConnectionIconURL from './gdxfor/gdxfor-illustration.svg';
 import gdxforConnectionSmallIconURL from './gdxfor/gdxfor-small.svg';
 
+import brbIcon from './brb/test.png';
+import brbSvg from './brb/test.svg';
+
 export default [
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Testing!"
+                description="Name for the 'Testing' extension"
+                id="gui.extension.brb.name"
+            />
+        ),
+        extensionId: 'brb',
+        iconURL: brbIcon,
+        insetIconURL: brbSvg,
+        description: (
+            <FormattedMessage
+                defaultMessage="I wrote this to test."
+                description="Description for the 'Testing' extension"
+                id="gui.extension.brb.description"
+            />
+        ),
+        featured: true
+    },
     {
         name: (
             <FormattedMessage
