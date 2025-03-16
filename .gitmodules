@@ -1,0 +1,3 @@
+[submodule "scratch-vm"]
+	path = scratch-vm
+	url = git@github.com:asaunde78/scratch-vm.git
